@@ -9,10 +9,10 @@ When page loads a header will display current time/date.  The person navigating 
 
 https://krimeas.github.io/work-day-scheduler/
 
-![Portfolio](/assets/main_page.JPG)
+![Portfolio](/Assets/main_page.JPG)
 
 
-![Portfolio](/assets/modal_popup.JPG)
+![Portfolio](/Assets/modal_popup.JPG)
 
 ------------------------------------------------------------
 
