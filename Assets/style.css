@@ -2,9 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color:beige;
 }
 
-textarea {
+.centerRow {
   background: transparent;
   border: none;
   resize: none;
@@ -13,6 +14,7 @@ textarea {
   padding: 10px;
 }
 
+/* Header styling */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -21,42 +23,38 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
-}
 
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
+/* for the 'rows' */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
 }
 
+/* for the left hand hour column */
 .hour {
-  background-color: #ffffff;
+  background-color:beige;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* Classes Past/Future/present for background color changes. */
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: #868585;
+
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #aa4843;
+
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #338433;
+
 }
 
+/* for the Save button columns */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -68,4 +66,13 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+
+}
+
+#myModal {
+  color: #000000;
+}
+
+.hide { 
+  display: none; 
 }
